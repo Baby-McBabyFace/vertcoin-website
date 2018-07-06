@@ -30,6 +30,7 @@
 
            <h2 style="color: #048657"><strong><span class="donationAmount">0</span> VTC</strong></h2>
         <p class="donationAddress">{{ i18n "donation_address" | markdownify }}: <a target="_blank" href="https://insight.vertcoin.org/address/{{ .Get "address" }}">{{ .Get "address" }}</a></p>
+		<img title="Create your own custom VTC address QRCode: https://cwaqrgen.com/vtc" src={{.Get "qrcode"}} alt={{.Get "title"}} style="width:200px;height:200px;">
 
 </div>
 
